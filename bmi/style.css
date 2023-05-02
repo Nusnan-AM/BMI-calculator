@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    background-image:rgb(175, 174, 174);
+    min-height: 100vh;
+}
+
+.container {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #5e5e61;
+}
+#nic{
+    color:#747070;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #5e5e61;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+#name{
+    color:#747070;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #5e5e61;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+#height{
+    color:#747070;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #5e5e61;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+#weight {
+    color:#747070;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #5e5e61;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#height:focus,
+#weight:focus {
+    border-bottom: 2px solid #5e5e61;
+    width: 140px;
+    transition: 0.5s;
+}
+
+#weight-guide {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+#results {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgba(48, 47, 47, 0.562);
+}
+
+button {
+    font-family: inherit;
+    margin-top: 30px;
+    border: none;
+    color: #ffff;
+    background-image: linear-gradient(120deg, #747070, #747070);
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 1px 1px 10px #7a7983;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 12px;
+    font-family: inherit;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 165px;
+}
+a {
+    color:#fff;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+#arr{
+    display: none;
+    padding: 3%;
+}
